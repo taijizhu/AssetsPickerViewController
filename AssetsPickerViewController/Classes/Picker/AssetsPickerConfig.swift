@@ -110,7 +110,7 @@ import Photos
         return CGSize(width: edge, height: edge)
     }
     
-    public init() {}
+    public overide init() {}
     
     @discardableResult
     open func prepare() -> Self {
